@@ -45,16 +45,16 @@ app.UseAuthorization();
 
 app.MapRazorPages();
 
-using (var scope = app.Services.CreateScope()) {
-    var services = scope.ServiceProvider;
+// using (var scope = app.Services.CreateScope()) {
+//     var services = scope.ServiceProvider;
 
-    var context = services.GetRequiredService<ApplicationDbContext>();    
-    context.Database.Migrate();
+//     var context = services.GetRequiredService<ApplicationDbContext>();    
+//     context.Database.Migrate();
 
-    var userMgr = services.GetRequiredService<UserManager<IdentityUser>>();  
-    var roleMgr = services.GetRequiredService<RoleManager<IdentityRole>>();  
+//     var userMgr = services.GetRequiredService<UserManager<IdentityUser>>();  
+//     var roleMgr = services.GetRequiredService<RoleManager<IdentityRole>>();  
 
-    IdentitySeedData.Initialize(context, userMgr, roleMgr).Wait();
-}
+//     IdentitySeedData.Initialize(context, userMgr, roleMgr).Wait();
+// }
 
 app.Run();

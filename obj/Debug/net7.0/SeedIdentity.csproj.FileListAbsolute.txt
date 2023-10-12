@@ -1,7 +1,6 @@
 /Users/sahilrai/Developer/BCIT/dotnet/SeedIdentity/bin/Debug/net7.0/appsettings.Development.json
 /Users/sahilrai/Developer/BCIT/dotnet/SeedIdentity/bin/Debug/net7.0/appsettings.json
 /Users/sahilrai/Developer/BCIT/dotnet/SeedIdentity/bin/Debug/net7.0/SeedIdentity.staticwebassets.runtime.json
-/Users/sahilrai/Developer/BCIT/dotnet/SeedIdentity/bin/Debug/net7.0/app.db
 /Users/sahilrai/Developer/BCIT/dotnet/SeedIdentity/bin/Debug/net7.0/SeedIdentity
 /Users/sahilrai/Developer/BCIT/dotnet/SeedIdentity/bin/Debug/net7.0/SeedIdentity.deps.json
 /Users/sahilrai/Developer/BCIT/dotnet/SeedIdentity/bin/Debug/net7.0/SeedIdentity.runtimeconfig.json
